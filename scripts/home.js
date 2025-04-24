@@ -7,7 +7,8 @@ if (carrinho == null) {
     carrinho = [];
 }
 
-fetch("dados.json")
+//Carregar os dados do arquivo JSON
+fetch('../assets/dados.json')
     .then(response => response.json())
     .then(data => {
         produtos = data;
@@ -21,10 +22,10 @@ function exibirCards() {
         const card = document.createElement('div');
         card.classList.add('card');
         card.innerHTML = `
-            <img src="${produto.imagem}">
-            <h2>${produto.modelo}</h2>
-            <p>${produto.marca}</p>
-            <p>R$ ${produto.valor_diaria.toFixed(2)}</p>
+            <img src="${produto.imagem}" alt="${produto.nome}">
+            <h2>${produto.nome}</h2>
+            <p>${produto.autor}</p>
+            <p>${produto.ano}</p>
             <button onclick="mostrarDetalhes(${indice})">Detalhes</button>
         `;
         main.appendChild(card);
@@ -35,16 +36,19 @@ function mostrarDetalhes(indice) {
     const detalhes = document.getElementById('detalhes');
     const titulo = document.querySelector('#detalhes h2');
     const imagem = document.querySelector('#detalhes img');
-    const modelo = document.querySelector('#detalhes .modelo p');
+    const descricao = document.querySelector('#detalhes .descricao p');
+    const autor = document.querySelector('#detalhes .autor p');
+    const editora = document.querySelector('#detalhes .editora p');
+    const genero = document.querySelector('#detalhes .genero p');
     const ano = document.querySelector('#detalhes .ano p');
-    const valor_diaria = document.querySelector('#detalhes .valor_diaria p');
     const botao = document.querySelector('#detalhes .rodape button');
-
     detalhes.classList.remove('oculto');
-    titulo.innerHTML = produtos[indice].marca;
+    titulo.innerHTML = produtos[indice].nome;
     imagem.src = produtos[indice].imagem;
-    modelo.innerHTML = produtos[indice].modelo;
-    ano.innerHTML = produtos[indice].ano;
-    valor_diaria.innerHTML = `R$ ${produtos[indice].valor_diaria.toFixed(2)}`;
+    descricao.innerHTML = produtos[indice].descricao;
+    autor.innerHTML = produtos[indice].autor;
+    editora.innerHTML = produtos[indice].editora;
+    genero.innerHTML = produtos[indice].genero;
+    ano.innerHTML = `${produtos[indice].ano}`;
     botao.setAttribute('onclick', `adicionarCarrinho(${indice})`);
 }

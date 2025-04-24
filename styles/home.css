@@ -1,4 +1,4 @@
-@import url('./style.css');
+@import url('style.css');
 
 header, footer{
     width: 100%;
@@ -10,9 +10,10 @@ header, footer{
     background-color: var(--c1);
     color: var(--c5);
     & button{
-        background-image: url('../assets/icone.png');
+        background-image: url('../assets/livro.png');
         background-size: cover;
         background-color: transparent;
+        justify-content: space-between;
     }
 
     & button:hover{

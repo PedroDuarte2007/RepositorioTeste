@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "nome": "Dom Quixote",
+        "descricao": "Um romance satírico sobre um fidalgo que acredita ser um cavaleiro andante.",
+        "ano": 1605,
+        "autor": "Miguel de Cervantes",
+        "editora": "Editora Clássicos",
+        "genero": "Romance",
+        "imagem": "https://www.topleituras.com/livros/dom-quixote-ec4f-capa.jpg"
+    },
+    {
+        "id": 2,
+        "nome": "1984",
+        "descricao": "Um retrato sombrio de um futuro totalitário.",
+        "ano": 1949,
+        "autor": "George Orwell",
+        "editora": "Companhia das Letras",
+        "genero": "Distopia",
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYGCAhLsV77DFs1dIGiib32eDSxp5YC0_ISw&s"
+    },
+    {
+        "id": 3,
+        "nome": "A Revolução dos Bichos",
+        "descricao": "Uma alegoria sobre o totalitarismo disfarçado de fábula animal.",
+        "ano": 1945,
+        "autor": "George Orwell",
+        "editora": "Fábula política",
+        "genero": "Fábula política",
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp2QlSpSUe1Z9Wic8t6dEjmFi4OQW-8ThvOA&s"
+    },
+    {
+        "id": 4,
+        "nome": "O Pequeno Príncipe",
+        "descricao": "Um conto filosófico com críticas sociais sutis.",
+        "ano": 1943,
+        "autor": "Antoine de Saint-Exupéry",
+        "editora": "Agir",
+        "genero": "Infantil/Filosófico",
+        "imagem": "https://m.media-amazon.com/images/I/81TmOZIXvzL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 5,
+        "nome": "Orgulho e Preconceito",
+        "descricao": "A história de Elizabeth Bennet enquanto lida com questões de classe e amor.",
+        "ano": 1813,
+        "autor": "Jane Austen",
+        "editora": "Penguin",
+        "genero": "Romance",
+        "imagem": "https://m.media-amazon.com/images/I/71Xta4Nf7uL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 6,
+        "nome": "O Hobbit",
+        "descricao": "A jornada de Bilbo Bolseiro em uma aventura pela Terra Média.",
+        "ano": 1937,
+        "autor": "J.R.R. Tolkien",
+        "editora": "HarperCollins",
+        "genero": "Fantasia",
+        "imagem": "https://livrariadorasta.com.br/image/cache/data/api/produtos/15211-515x800.jpg?1675964395"
+    },
+    {
+        "id": 7,
+        "nome": "Moby Dick",
+        "descricao": "A obsessiva caçada do capitão Ahab pela baleia branca.",
+        "ano": 1851,
+        "autor":  "Herman Melville",
+        "editora": "Nova Fronteira",
+        "genero": "Aventura",
+        "imagem": "https://m.media-amazon.com/images/I/712mdW4zCcL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 8,
+        "nome": "A Metamorfose",
+        "descricao": "Um homem acorda transformado em um inseto gigante.",
+        "ano": 1915,
+        "autor": "Franz Kafka",
+        "editora": "L&PM",
+        "genero": "Ficção filosófica",
+        "imagem": "https://m.media-amazon.com/images/I/71mFnG3Bn3L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 9,
+        "nome": "Grande Sertão: Veredas",
+        "descricao": "Um clássico da literatura brasileira sobre o sertão e seus conflitos.",
+        "ano": 1956,
+        "autor":  "João Guimarães Rosa",
+        "editora": "Nova Aguilar",
+        "genero": "Romance",
+        "imagem": "https://m.media-amazon.com/images/I/71bh8SB8R0L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 10,
+        "nome": "Harry Potter e a Pedra Filosofal",
+        "descricao": "O começo da jornada de um jovem bruxo em Hogwarts.",
+        "ano": 1997,
+        "autor": "J.K. Rowling",
+        "editora": "Rocco",
+        "genero": "Fantasia",
+        "imagem": "https://m.media-amazon.com/images/I/61jgm6ooXzL._AC_UF1000,1000_QL80_.jpg"
+    }
+]
